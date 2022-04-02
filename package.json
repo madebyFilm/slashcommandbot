@@ -1,0 +1,29 @@
+{
+  "name": "slash-bot",
+  "version": "1.0.0",
+  "description": "hahaha",
+  "main": "index.js",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "asynckit": "^0.4.0",
+    "discord.js": "^13.6.0",
+    "fetch-blob": "^3.1.5",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.2.3"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "run": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clqu/discord.js-v13-slash-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clqu/discord.js-v13-slash-bot/issues"
+  },
+  "homepage": "https://github.com/clqu/discord.js-v13-slash-bot#readme"
+}
