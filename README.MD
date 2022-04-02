@@ -1,5 +1,4 @@
 #Discord.js v13 Slash Bot<br>
-#[Discord Server](https://discord.gg/Qdbq2v8FM4)
 
 ## 🛠 Setup
  - Run the `npm install` command on the Powershell.
