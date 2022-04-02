@@ -1,3 +1,5 @@
+const { MessageEmbed } = require("discord.js");
+
 module.exports = {
     name: "embed",
     description: "sends an embed",
@@ -22,6 +24,10 @@ module.exports = {
            interaction.reply in slash commands will be best for you.
        */
         if (type) {
+            const newembed1 = new MessageEmbed()
+            .setTitle("test title")
+            .setDescription("testdescription")
+
             await interaction.reply({ content: `${client.user.username} | ${channel.id}`, ephemeral: true })
         }
         // if (user) {
